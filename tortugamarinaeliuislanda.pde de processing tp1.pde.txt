@@ -1,0 +1,50 @@
+//Islanda, Eliu
+//tp1 comision 1
+PImage foto;
+
+ void setup() {
+  size (800, 400);
+  foto = loadImage("tortugam.png");
+ 
+
+    
+ }
+ 
+ 
+ void draw() {
+ background(0, 215, 235); 
+ noStroke();
+ fill(230, 200,255);
+ rect(340, 280, 460, 700);
+ fill(255,255,255);
+rect(344, 0, 10, 399);
+fill(300,700,80);
+ellipse(550,215, 270, 160);
+ellipse(680,155, 120, 80);
+circle(720, 155, 70);
+ellipse(710, 150, 30, 29);
+ellipse(750, 150, 30, 29);
+fill(0,0,0);
+ellipse(750, 150, 30, 15);
+fill(300, 700,80);
+rect(380, 240, 90, 30);
+fill(0,0,0);
+ellipse(710, 150, 30, 15);
+fill(71,32,12);
+ellipse(520,160, 260, 100);
+ellipse(580,220, 200, 50);
+ellipse(730,160, 22, 30);
+ellipse(730, 175, 49, 30);
+fill(300, 700, 80);
+ellipse(730, 180, 44, 15);
+fill(300,700, 80);
+rect(430,250, 190, 30);
+
+ println(mouseX);
+   println(mouseY);
+ 
+ 
+ image(foto, 0, 1);
+   
+   
+ }
